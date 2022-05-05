@@ -89,7 +89,7 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
     amount,
   }: UpdateProductAmount) => {
     try {
-      TODO
+      // TODO
     } catch {
       toast.error('Erro na alteração de quantidade do produto');
     }
